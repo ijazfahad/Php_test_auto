@@ -1,0 +1,17 @@
+#########################Harry Potter Game###################
+
+-simulates Your adventure of Hogwarts school of witchcraft and wizardry
+-made to work with command line prompt or the terminal
+-php 7 was used with symfony frame work
+-phpAdmin was used for the database
+-keep the username:root & password: null for the database
+-all the project files are in RPGBundle like asked, sub folder GameFiles
+-all the database configurations can be found in app/config.yaml
+-please configure all the database before trying to save and retrieve data for best performance of the game
+-to run the game go to : cd.../code/src/RPGBundle/gamefiles
+
+
+and then run the command ../ php main.php to start the game
+
+-Hope you enjoy it...
+
