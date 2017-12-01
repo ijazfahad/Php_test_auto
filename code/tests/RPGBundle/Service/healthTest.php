@@ -12,7 +12,8 @@ use PHPUnit\Framework\TestCase;
 use RPGBundle\GameFiles\Health;
 
 
-class healthTest extends  TestCase
+
+class healthTest extends  \PHPUnit_Framework_TestCase
 {
 
     public $health = 70;

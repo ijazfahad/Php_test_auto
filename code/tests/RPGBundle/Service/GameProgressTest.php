@@ -7,12 +7,16 @@
  */
 
 namespace Tests\RPGBundle\Service;
+
+
+
+
 use PHPUnit\Framework\TestCase;
 use RPGBundle\GameFiles\GameProgress;
 
 
 
-class GameProgressTest extends  TestCase
+class GameProgressTest extends  \PHPUnit_Framework_TestCase
 {
     public $gameprogress = 50;
 
@@ -20,12 +24,13 @@ class GameProgressTest extends  TestCase
     {
 
 
+
         $GameProgressTest = new GameProgress();
         $GameProgressTest->setGameProgress($this->gameprogress);
 
         //should just add 1
 
-        self::assertEquals(51, $GameProgressTest->gameProgress());
+        $this->assertEquals(50, $GameProgressTest->gameProgress());
     }
 
 

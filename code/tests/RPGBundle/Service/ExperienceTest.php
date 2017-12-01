@@ -6,13 +6,13 @@ namespace Tests\RPGBundle\Service;
 use PHPUnit\Framework\TestCase;
 use RPGBundle\GameFiles\Experience;
 
-class SpellTest extends TestCase
+class ExperienceTest extends \PHPUnit_Framework_TestCase
 {
 
     public $experience = 85;
 
 
-    public function CastTortureSpellTest()
+    public function testCastTortureSpellTest()
     {
         $tortureTestCost = new Experience();
         $tortureTestCost->setExperience($this->experience);

@@ -8,11 +8,9 @@ use RPGBundle\Service\SumService;
 /**
  * Class SumServiceTest
  */
-class SumServiceTest extends TestCase
+class SumServiceTest extends \PHPUnit_Framework_TestCase
 {
-    /**
-     * Check sum service
-     */
+
     public function testMakeSum()
     {
         $service = new SumService();
